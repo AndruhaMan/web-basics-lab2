@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script defer src="./script.js"></script>
+  <title>Form</title>
+</head>
+
+<body>
+  <div class="container">
+    <form class="form box" action="javascript:void(0);" method="post">
+      <div class="field">
+        <label class="label">Full name</label>
+        <div class="control has-icons-left has-icons-right">
+          <input 
+            class="input"
+            type="text"
+            name="fullname"
+            placeholder="Smith J. K."
+          >
+
+          <span class="icon is-small is-left">
+            <i class="fas fa-user"></i>
+          </span>
+          <span class="icon is-small is-right"></span>
+        </div>
+        <p class="help is-danger"></p>
+      </div>
+
+      <div class="field">
+        <label class="label">Group</label>
+        <div class="control has-icons-left has-icons-right">
+          <input 
+            class="input"
+            type="text"
+            name="group"
+            placeholder="AA-11"
+          >
+
+          <span class="icon is-small is-left">
+            <i class="fas fa-users"></i>
+          </span>
+          <span class="icon is-small is-right"></span>
+        </div>
+        <p class="help is-danger"></p>
+      </div>
+
+      <div class="field">
+        <label class="label">Phone number</label>
+        <div class="control has-icons-left has-icons-right">
+          <input 
+            class="input"
+            type="text"
+            name="phone"
+            placeholder="(098)-111-11-11"
+          >
+
+          <span class="icon is-small is-left">
+            <i class="fas fa-phone"></i>
+          </span>
+          <span class="icon is-small is-right"></span>
+        </div>
+        <p class="help is-danger"></p>
+      </div>
+
+      <div class="field">
+        <label class="label">Faculty</label>
+        <div class="control has-icons-left has-icons-right">
+          <input 
+            class="input"
+            type="text"
+            name="faculty"
+            placeholder="FICE"
+          >
+
+          <span class="icon is-small is-left">
+            <i class="fas fa-school"></i>
+          </span>
+          <span class="icon is-small is-right"></span>
+        </div>
+        <p class="help is-danger"></p>
+      </div>
+
+      <div class="field">
+        <label class="label">City</label>
+        <div class="control has-icons-left has-icons-right">
+          <input 
+            class="input"
+            type="text"
+            name="city"
+            placeholder="Kyiv"
+          >
+
+          <span class="icon is-small is-left">
+            <i class="fas fa-city"></i>
+          </span>
+          <span class="icon is-small is-right"></span>
+        </div>
+        <p class="help is-danger"></p>
+      </div>
+
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="submit button is-link">
+            Submit
+          </button>
+        </div>
+
+        <div class="control">
+          <button class="cancel button is-link is-light">
+            Cancel
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
